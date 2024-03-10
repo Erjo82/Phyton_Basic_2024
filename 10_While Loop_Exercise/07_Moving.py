@@ -1,6 +1,6 @@
-shirina_free_space = int(input())
-daljina_free_space = int(input())
-visochina_free_space = int(input())
+width_free_space = int(input())
+length_free_space = int(input())
+height_free_space = int(input())
 needed_space = 0
 command = input()
 
