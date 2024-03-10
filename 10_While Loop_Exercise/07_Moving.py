@@ -4,7 +4,7 @@ height_free_space = int(input())
 needed_space = 0
 command = input()
 
-free_space_total = shirina_free_space * daljina_free_space * visochina_free_space
+free_space_total = width_free_space * length_free_space * height_free_space
 
 while command != 'Done':
     command = int(command)
