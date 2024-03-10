@@ -1,6 +1,6 @@
 width = int(input())
 length = int(input())
-all_pcs = shirina * daljina
+all_pcs = width * length
 
 while all_pcs > 0:
     command_or_cake_pcs = input()
