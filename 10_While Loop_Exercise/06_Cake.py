@@ -1,5 +1,5 @@
-shirina = int(input())
-daljina = int(input())
+width = int(input())
+length = int(input())
 all_pcs = shirina * daljina
 
 while all_pcs > 0:
