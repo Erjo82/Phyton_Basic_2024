@@ -1,10 +1,7 @@
-txt = "THIS IS NOe!"
+txt = "123456"
 
-x = txt.isupper()
+left_side =  txt[:3]
+right_side = txt[3:]
 
-if x:
-    print('OK')
-else:
-    print('no')
-
-print(txt.lower())
+print(left_side)
+print(right_side)
