@@ -10,7 +10,6 @@ for index, sand in enumerate(word): # ------ sand -----------
         find_sand = word[index : index + len(is_sand)]
         if find_sand == is_sand:
             find_word += 1
-
 for index2, sun in enumerate(word): # ------ sun -----------
     if sun == 's':
         find_sun = word[index2 : index2 + len(is_sun)]
