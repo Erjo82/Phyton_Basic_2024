@@ -8,7 +8,6 @@ while True:
         for index, current_gift in enumerate(all_gifts):
             if current_gift == command[1]:
                 all_gifts[index] = 'None'
-        count = 0
     elif command[0] == 'Required':
         for index2, current_gift2 in enumerate(all_gifts):
             if index2 == int(command[2]):
